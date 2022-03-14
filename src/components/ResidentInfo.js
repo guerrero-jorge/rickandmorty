@@ -38,7 +38,7 @@ const ResidentInfo = ({resident}) => {
                 }
             )
             
-    },[])
+    },[resident])
 
 
 
@@ -46,7 +46,7 @@ const ResidentInfo = ({resident}) => {
         <div className='column'>
             <div className='card' >
                
-                <img src={residentInfo.image} alt="Picture not found" style={{borderColor:fondo()}}/>
+                <img src={residentInfo.image} alt="Not found" style={{borderColor:fondo()}}/>
                 <div className='infocard'>
                     <h3>{residentInfo.name}</h3>
                     <p>{residentInfo.status}</p>

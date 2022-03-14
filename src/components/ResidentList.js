@@ -1,6 +1,6 @@
 import React from 'react';
 import ResidentInfo from './ResidentInfo';
-import { useState,useEffect } from 'react';
+
 
 const ResidentList = ({location,setPage,page}) => {
 
