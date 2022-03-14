@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+   height: 100vh;
+   
+   background-color: rgba(17,17,16,255);
+}
+.App{
+
+   background-color: rgba(17,17,16,255);
+
+    color: rgb(204, 198, 191);
+    
+    /*height: 100%;*/
+   
+    
+
+}
+
+.Searchbox{
+
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    margin: 10px 0px;
+    
+
+}
+
+.Searchbox input{
+
+    width: 30%;
+    height: 100%;
+    background-color: rgba(90, 94, 94, 0.504);
+
+
+    border-style: none;
+    color: azure;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  
+
+}
+
+
+.Searchbox button{
+
+
+    background-color: rgba(4,176,229,255);
+    
+    width: 70px;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    
+    border-color: rgb(199, 196, 196) ;
+    margin-left: 3px;
+      
+}
+.imginicio{
+
+    width: 50%;
+   
+}
+
+.contLocation{
+    text-align: center;
+    width: 100%;
+    margin: 50px 0px;
+ 
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(17,17,16,255);
+    margin-top: 30px;
+
+}
+#image{
+
+    width: 90vw;
+}
+img#picture1{
+
+    width: 11vw;
+    position: absolute;
+    top: 110px;
+    left: 280px;
+
+}
+
+img#picture2{
+
+    width: 11vw;
+    position: absolute;
+    left: 918px;
+    top: 60px;
+    
+
+
+}
+.contLocation p{
+    font-size: 23px;
+    color: rgba(4,176,229,255);
+    
+   /* color: #bae1fa;*/
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+.contLocation span{
+    padding-right: 10px;
+
+}
+/*
+.card{
+
+    display: flex;
+    box-shadow: 2px 1px 8px rgba(182, 175, 175, 0.603);
+    font-size: 11px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 130px;
+   
+}*/
+
+
+.card{
+
+    box-shadow: 4px 4px 8px rgba(241, 243, 245, 0.473);
+    
+    
+    padding: 20px;
+    border-radius: 0px 25px;
+    text-align: center;
+    width: 95%;
+    height: 100%;
+    
+    background-color: rgba(90, 94, 94, 0.504);
+    /*background-image:  url("verde.jpg"); */  
+    /*background-image:  url("estrellas.jpg");*/
+   
+  
+    
+  }
+
+
+.contResidentList{
+
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+    width: 60%;
+    margin: 0 auto;
+
+
+    
+    
+    
+
+}
+
+.column{
+
+    width: 100%;
+    /*---------*/
+
+
+    height: 270px;
+
+
+
+
+
+    margin-bottom: 20px;
+    
+
+}
+.card img{
+
+    width: 120px;
+
+
+   /* height: 100%;*/
+    border:solid 3px ;
+    border-radius: 15px;
+   
+    /*
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(30, 226, 56);*/
+
+}
+
+.infocard{
+
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    
+}
+
+.infocard h3{
+
+    color: rgba(4,176,229,255);
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.botoneInferiores{
+    
+    
+    padding-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botoneInferiores button{
+
+    margin: 10px;
+    
+    background-color: rgba(17,17,16,255);
+    border: none;
+    border-radius: 50%;
+    
+    /*background-color: rgba(4,176,229,255);
+    
+    border-radius: 10px;
+    width: 80px;
+
+    
+    font-size: 14px;
+    border-color: rgb(199, 196, 196) ;*/
+    
+}
+
+div.Searchbox button:hover{
+
+    background-color: rgba(22, 223, 82, 0.849);
+
+} 
+
+
+
+input:hover{
+
+
+   border: 1px solid rgba(4,176,229,255);; 
+}
+
+i{
+    font-size: 40px;
+    /*color:blueviolet;*/
+    color: rgba(4,176,229,255);
+    
+    /*background-color: blueviolet;*/
+    border-radius: 50%;
+    
+}
+
+/*
+@media (min-width:576px){
+
+    .column{
+  
+      width: 100%;
+  
+    }
+  
+  }
+  */
+
+
+ 
+    @media (min-width:800px){
+
+        #image{
+
+            width: 70vw;
+        }
+    
+        .column{
+      
+          width: 50%;
+        }
+        
+    
+  }
+  
+ 
+
+  
+  
+  
+  
+  
+  
